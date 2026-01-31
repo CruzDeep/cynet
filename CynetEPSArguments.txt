@@ -1,0 +1,1 @@
+usslb.cynet.com -port 443 -lightagent -cs -msi -tknv 1 -tkn 4fe21257-ac8c-4b67-be6c-ae9d9c919f8a -group64 RFMtTElOLUVQLURBLU9QLTEw  -secip usslb.cynet.com -secport 443 -cp 2 -base64url aHR0cHM6Ly91c3Nhdi5jeW5ldC5jb206NDQz -nosp
