@@ -31,7 +31,7 @@ SETNAME="github_v4"
 # LOCK
 ############################################
 echo "[1] Validación de ejecución simultánea"
-LOCK="/run/update_github_ips.lock"
+LOCK="$HOME/update_github_ips.lock"
 exec 9>"$LOCK"
 flock -n 9 || {
   echo "[INFO] Script ya en ejecución. Saliendo."
