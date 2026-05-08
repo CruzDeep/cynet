@@ -1,0 +1,719 @@
+journalctl | grep -i cynet
+abr 28 19:21:45 cruzaLinGeneralPruebas sudo[6326]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/chmod +x cy_easyinstall.sh
+abr 28 19:22:28 cruzaLinGeneralPruebas sudo[6360]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+abr 28 19:22:33 cruzaLinGeneralPruebas kernel: process '/opt/Cynet/CynetEPS' started with executable stack
+abr 28 19:31:54 cruzaLinGeneralPruebas systemd[1]: cyservice.service: Killing process 7254 (CynetEPS) with signal SIGKILL.
+abr 29 10:52:50 cruzaLinGeneralPruebas kernel: process '/opt/Cynet/CynetEPS' started with executable stack
+abr 29 10:55:56 cruzaLinGeneralPruebas systemd[1]: cyservice.service: Killing process 1027 (CynetEPS) with signal SIGKILL.
+abr 29 13:20:17 cruzaLinGeneralPruebas sudo[1808849]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+abr 29 13:21:44 cruzaLinGeneralPruebas sudo[1830053]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl stop cyservice
+abr 29 13:21:54 cruzaLinGeneralPruebas systemd[1]: cyservice.service: Killing process 1724303 (CynetEPS) with signal SIGKILL.
+abr 29 13:22:04 cruzaLinGeneralPruebas sudo[1830067]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl disable cyservice
+abr 29 13:23:07 cruzaLinGeneralPruebas sudo[1830205]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/rm -f /etc/systemd/system/cyservice/cyservice.service
+abr 29 13:23:18 cruzaLinGeneralPruebas sudo[1830208]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl daemon-reload
+abr 29 13:23:36 cruzaLinGeneralPruebas sudo[1830353]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+abr 29 13:24:46 cruzaLinGeneralPruebas sudo[1830403]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/rm -f /usr/lib/systemd/system/cyservice.service
+abr 29 13:24:55 cruzaLinGeneralPruebas sudo[1830408]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl daemon-reload
+abr 29 13:28:20 cruzaLinGeneralPruebas sudo[3225]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+abr 29 13:30:53 cruzaLinGeneralPruebas sudo[3275]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/dpkg --remove cynetep
+abr 29 13:31:08 cruzaLinGeneralPruebas sudo[3278]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/dpkg --remove cyservice.service
+abr 29 13:31:12 cruzaLinGeneralPruebas sudo[3281]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/dpkg --remove cyservice
+abr 29 13:31:48 cruzaLinGeneralPruebas sudo[3290]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+abr 29 13:32:10 cruzaLinGeneralPruebas sudo[3332]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+abr 29 19:53:11 cruzaLinGeneralPruebas sudo[3905]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh
+abr 30 12:26:16 cruzaLinGeneralPruebas sudo[3616]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./Consumo.sh
+abr 30 12:26:16 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777573576.417:350): pid=3616 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd="./Consumo.sh" exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 12:29:48 cruzaLinGeneralPruebas sudo[5464]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/apt install dos2unix
+abr 30 12:29:48 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777573788.681:505): pid=5464 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=61707420696E7374616C6C20646F7332756E6978 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 12:30:42 cruzaLinGeneralPruebas sudo[6437]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/apt install dos2unix
+abr 30 12:30:42 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777573842.829:534): pid=6437 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=61707420696E7374616C6C20646F7332756E6978 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 12:32:00 cruzaLinGeneralPruebas sudo[7203]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./Consumo.sh
+abr 30 12:32:00 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777573920.536:542): pid=7203 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd="./Consumo.sh" exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 12:35:53 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777574153.634:565): pid=7333 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd="./COnsumo.sh" exe="/usr/bin/sudo" terminal=pts/0 res=failed'
+abr 30 12:35:59 cruzaLinGeneralPruebas sudo[7334]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./Consumo.sh
+abr 30 12:35:59 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777574159.757:567): pid=7334 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd="./Consumo.sh" exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 12:36:41 cruzaLinGeneralPruebas sudo[7370]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl cynet
+abr 30 12:36:41 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777574201.406:573): pid=7370 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=73797374656D63746C2063796E6574 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 12:36:52 cruzaLinGeneralPruebas sudo[7373]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl status cynet
+abr 30 12:36:52 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777574212.148:579): pid=7373 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=73797374656D63746C207374617475732063796E6574 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 12:37:12 cruzaLinGeneralPruebas sudo[7379]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./Consumo.sh
+abr 30 12:37:12 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777574232.611:585): pid=7379 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd="./Consumo.sh" exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 13:06:43 cruzaLinGeneralPruebas sudo[3590]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+abr 30 13:06:43 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777576003.068:346): pid=3590 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=2E2F63795F65617379696E7374616C6C2E736820747275652066616C7365 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 13:18:55 cruzaLinGeneralPruebas sudo[4494]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/apt update
+abr 30 13:18:55 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777576735.418:396): pid=4494 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=61707420757064617465 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 14:00:47 cruzaLinGeneralPruebas sudo[6721]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+abr 30 14:00:47 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777579247.217:501): pid=6721 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=2E2F63795F65617379696E7374616C6C2E736820747275652066616C7365 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 14:03:01 cruzaLinGeneralPruebas sudo[7503]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/rm -f /varcrash/sysdig.0.crash
+abr 30 14:03:01 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777579381.619:511): pid=7503 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=726D202D66202F76617263726173682F7379736469672E302E6372617368 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 14:03:23 cruzaLinGeneralPruebas sudo[7506]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/apt-get remove --purge sysdig -y
+abr 30 14:03:23 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777579403.255:517): pid=7506 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=6170742D6765742072656D6F7665202D2D707572676520737973646967202D79 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 14:03:38 cruzaLinGeneralPruebas sudo[7512]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/rm -rf /var/lib/dkms/scap
+abr 30 14:03:38 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777579418.778:523): pid=7512 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=726D202D7266202F7661722F6C69622F646B6D732F73636170 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 14:04:55 cruzaLinGeneralPruebas sudo[7548]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+abr 30 14:04:55 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777579495.709:531): pid=7548 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=2E2F63795F65617379696E7374616C6C2E736820747275652066616C7365 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 14:05:08 cruzaLinGeneralPruebas sudo[8281]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/rm -f /varcrash/sysdig.0.crash
+abr 30 14:05:08 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777579508.138:545): pid=8281 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=726D202D66202F76617263726173682F7379736469672E302E6372617368 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 14:05:23 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777579523.931:551): pid=8284 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=6170742D6765742072656D6F7665202D2D707572676520737973646967202D79 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 14:05:23 cruzaLinGeneralPruebas sudo[8284]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/apt-get remove --purge sysdig -y
+abr 30 14:05:55 cruzaLinGeneralPruebas sudo[8291]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/apt autoremove
+abr 30 14:05:55 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777579555.208:557): pid=8291 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=617074206175746F72656D6F7665 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 14:07:12 cruzaLinGeneralPruebas sudo[9055]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/apt autoremove
+abr 30 14:07:12 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777579632.164:563): pid=9055 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=617074206175746F72656D6F7665 exe="/usr/bin/sudo" terminal=pts/0 res=success'
+abr 30 14:16:11 cruzaLinGeneralPruebas sudo[3285]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+abr 30 14:20:41 cruzaLinGeneralPruebas sudo[4272]:    cruza : TTY=pts/0 ; PWD=/var/crash ; USER=root ; COMMAND=/usr/bin/dpkg --purge cynet
+abr 30 14:21:49 cruzaLinGeneralPruebas sudo[4317]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+abr 30 14:23:34 cruzaLinGeneralPruebas sudo[4399]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/dpkg --purge cyneteps
+abr 30 14:24:19 cruzaLinGeneralPruebas sudo[4579]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/rm -rf /opt/Cynet
+abr 30 14:24:36 cruzaLinGeneralPruebas sudo[4584]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+abr 30 14:24:45 cruzaLinGeneralPruebas sudo[4588]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/apt-get install -f -y
+abr 30 14:25:19 cruzaLinGeneralPruebas sudo[4607]:    cruza : TTY=pts/0 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+abr 30 14:25:20 cruzaLinGeneralPruebas kernel: process '/opt/Cynet/CynetEPS' started with executable stack
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5290]: Check if process if there is dpkg lock.
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5290]: Unlock /var/lib/dpkg/lock
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5296]: lsof: WARNING: can't stat() fuse.portal file system /run/user/1000/doc
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5296]:       Output information may be incomplete.
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5296]: lsof: WARNING: can't stat() fuse.gvfsd-fuse file system /run/user/1000/gvfs
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5296]:       Output information may be incomplete.
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5290]: Unlock /var/lib/dpkg/lock-frontend
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5298]: lsof: WARNING: can't stat() fuse.portal file system /run/user/1000/doc
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5298]:       Output information may be incomplete.
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5298]: lsof: WARNING: can't stat() fuse.gvfsd-fuse file system /run/user/1000/gvfs
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5298]:       Output information may be incomplete.
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5290]: Trying to remove package if installed
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5290]: Command dpkg found
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5300]: Deseado=desconocido(U)/Instalar/eliminaR/Purgar/retener(H)
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5300]: | Estado=No/Inst/ficheros-Conf/desempaqUetado/medio-conF/medio-inst(H)/espera-disparo(W)/pendienTe-disparo
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5300]: |/ Err?=(ninguno)/requiere-Reinst (Estado,Err: mayúsc.=malo)
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5300]: ||/ Nombre         Versión        Arquitectura Descripción
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5300]: +++-==============-==============-============-=================================
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5300]: ii  cyneteps       4.32.0.17002-1 amd64        Cynet EDR package
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5290]: Return value of dpkg list:  0
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5290]: Purging deb package
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5301]: (Leyendo la base de datos ... 189428 ficheros o directorios instalados actualmente.)
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5301]: Desinstalando cyneteps (4.32.0.17002-1) ...
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5302]: Cynet Package: Print uninstaller argument remove
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5302]: Cynet Package: prerm step
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5302]: Removing existing service
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5302]: uninstalling using systemctl
+abr 30 14:25:36 cruzaLinGeneralPruebas uninstallCynetEPS[5302]: daemon-reexec error message:
+abr 30 14:25:47 cruzaLinGeneralPruebas systemd[1]: cyservice.service: Killing process 4960 (CynetEPS) with signal SIGKILL.
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5577]: Syntax: /usr/bin/deb-systemd-invoke <action> [<unit file> [<unit file> ...]]
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5302]: Cynet Package: Removing CynetEPS audit rules if needed.
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5302]: Cynet Package: No Cynet audit rules configured.
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5302]: Cynet Package: Run auditctl to remove rules with cynetaukey key.
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5580]: No rules
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5302]: Cynet Package: Removing CynetEPS audit plugin if needed.
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5302]: Cynet Package: No Cynet Audit plugin installed.
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5583]: Cynet Package: postrm step
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5583]: It is final remove, need to remove files
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5583]: Cynet Package: Remove old files
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5583]: Cynet Package: Erase CynetEPS /Data subfolder
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5583]: Cynet Package: Erase CynetEPS /AV subfolder
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5301]: Purgando ficheros de configuración de cyneteps (4.32.0.17002-1) ...
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5586]: Cynet Package: postrm step
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5586]: It is final remove, need to remove files
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5586]: Cynet Package: Remove old files
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5586]: Cynet Package: Erase CynetEPS /Data subfolder
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5586]: Cynet Package: Erase CynetEPS /AV subfolder
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5301]: dpkg: atención: al desinstalar cyneteps, el directorio «/opt/Cynet» no está vacío, por lo que no se borra
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5290]: Trying to remove manual installation
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5290]: Checking for existing service
+abr 30 14:25:47 cruzaLinGeneralPruebas uninstallCynetEPS[5290]: Removing /opt/Cynet/
+abr 30 14:31:16 cruzaLinGeneralPruebas sudo[5776]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+abr 30 14:31:16 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777581076.016:753): pid=5776 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=2E2F63795F65617379696E7374616C6C2E736820747275652066616C7365 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+abr 30 14:42:47 cruzaLinGeneralPruebas systemd[1]: cyservice.service: Killing process 6289 (CynetEPS) with signal SIGKILL.
+may 04 13:16:30 cruzaLinGeneralPruebas kernel: process '/opt/Cynet/CynetEPS' started with executable stack
+may 04 13:16:30 cruzaLinGeneralPruebas uninstallCynetEPS[1297]: Check if process if there is dpkg lock.
+may 04 13:16:30 cruzaLinGeneralPruebas uninstallCynetEPS[1297]: Unlock /var/lib/dpkg/lock
+may 04 13:16:30 cruzaLinGeneralPruebas uninstallCynetEPS[1297]: Unlock /var/lib/dpkg/lock-frontend
+may 04 13:16:30 cruzaLinGeneralPruebas uninstallCynetEPS[1297]: Trying to remove package if installed
+may 04 13:16:30 cruzaLinGeneralPruebas uninstallCynetEPS[1297]: Command dpkg found
+may 04 13:16:30 cruzaLinGeneralPruebas uninstallCynetEPS[1420]: Deseado=desconocido(U)/Instalar/eliminaR/Purgar/retener(H)
+may 04 13:16:30 cruzaLinGeneralPruebas uninstallCynetEPS[1420]: | Estado=No/Inst/ficheros-Conf/desempaqUetado/medio-conF/medio-inst(H)/espera-disparo(W)/pendienTe-disparo
+may 04 13:16:30 cruzaLinGeneralPruebas uninstallCynetEPS[1420]: |/ Err?=(ninguno)/requiere-Reinst (Estado,Err: mayúsc.=malo)
+may 04 13:16:30 cruzaLinGeneralPruebas uninstallCynetEPS[1420]: ||/ Nombre         Versión        Arquitectura Descripción
+may 04 13:16:30 cruzaLinGeneralPruebas uninstallCynetEPS[1420]: +++-==============-==============-============-=================================
+may 04 13:16:30 cruzaLinGeneralPruebas uninstallCynetEPS[1420]: ii  cyneteps       4.32.0.17002-1 amd64        Cynet EDR package
+may 04 13:16:30 cruzaLinGeneralPruebas uninstallCynetEPS[1297]: Return value of dpkg list:  0
+may 04 13:16:30 cruzaLinGeneralPruebas uninstallCynetEPS[1297]: Purging deb package
+may 04 13:16:31 cruzaLinGeneralPruebas uninstallCynetEPS[1448]: (Leyendo la base de datos ... 189428 ficheros o directorios instalados actualmente.)
+may 04 13:16:31 cruzaLinGeneralPruebas uninstallCynetEPS[1448]: Desinstalando cyneteps (4.32.0.17002-1) ...
+may 04 13:16:31 cruzaLinGeneralPruebas uninstallCynetEPS[1656]: Cynet Package: Print uninstaller argument remove
+may 04 13:16:31 cruzaLinGeneralPruebas uninstallCynetEPS[1656]: Cynet Package: prerm step
+may 04 13:16:31 cruzaLinGeneralPruebas uninstallCynetEPS[1656]: Removing existing service
+may 04 13:16:31 cruzaLinGeneralPruebas uninstallCynetEPS[1656]: uninstalling using systemctl
+may 04 13:16:32 cruzaLinGeneralPruebas uninstallCynetEPS[1656]: daemon-reexec error message:
+may 04 13:16:42 cruzaLinGeneralPruebas systemd[1]: cyservice.service: Killing process 1287 (CynetEPS) with signal SIGKILL.
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[2465]: Syntax: /usr/bin/deb-systemd-invoke <action> [<unit file> [<unit file> ...]]
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[1656]: Cynet Package: Removing CynetEPS audit rules if needed.
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[1656]: Cynet Package: No Cynet audit rules configured.
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[1656]: Cynet Package: Run auditctl to remove rules with cynetaukey key.
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[2470]: No rules
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[1656]: Cynet Package: Removing CynetEPS audit plugin if needed.
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[1656]: Cynet Package: No Cynet Audit plugin installed.
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[2473]: Cynet Package: postrm step
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[2473]: It is final remove, need to remove files
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[2473]: Cynet Package: Remove old files
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[2473]: Cynet Package: Erase CynetEPS /Data subfolder
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[2473]: Cynet Package: Erase CynetEPS /AV subfolder
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[1448]: Purgando ficheros de configuración de cyneteps (4.32.0.17002-1) ...
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[2476]: Cynet Package: postrm step
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[2476]: It is final remove, need to remove files
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[2476]: Cynet Package: Remove old files
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[2476]: Cynet Package: Erase CynetEPS /Data subfolder
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[2476]: Cynet Package: Erase CynetEPS /AV subfolder
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[1448]: dpkg: atención: al desinstalar cyneteps, el directorio «/opt/Cynet» no está vacío, por lo que no se borra
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[1297]: Trying to remove manual installation
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[1297]: Checking for existing service
+may 04 13:16:42 cruzaLinGeneralPruebas uninstallCynetEPS[1297]: Removing /opt/Cynet/
+may 04 19:03:43 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: Check if process if there is dpkg lock.
+may 04 19:03:43 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: Unlock /var/lib/dpkg/lock
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: Unlock /var/lib/dpkg/lock-frontend
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: Trying to remove package if installed
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: Command dpkg found
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1400]: dpkg-query: no se ha encontrado ningún paquete que corresponda con cyneteps.
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: Return value of dpkg list:  1
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: Trying to remove manual installation
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: Checking for existing service
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: stopping service if running using systemctl
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: removing service if running using update-rc.d
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: removing existing service using update-rc
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: Service is not installed or we try to uninstall not packages EPS version
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]:   try to terminate CynetEPS, if running
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]:   try to terminate avupdate.bin, if running
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]:   try to terminate CynetAV, if running
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: Unlock /opt/Cynet/AV/CynetAV.sock.lock
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: Removing CynetEPS audit rules if needed.
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: No Cynet audit rules configured.
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: Run auditctl to remove rules with cynetaukey key.
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1512]: No rules
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: Removing CynetEPS audit plugin if needed.
+may 04 19:03:44 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: No Cynet Audit plugin installed.
+may 04 19:32:39 cruzaLinGeneralPruebas sudo[4968]:    cruza : TTY=pts/0 ; PWD=/home/cruza ; USER=root ; COMMAND=/usr/bin/ls /opt/Cynet/
+may 04 19:34:59 cruzaLinGeneralPruebas sudo[5045]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl stop auditd
+may 04 19:35:29 cruzaLinGeneralPruebas sudo[5066]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+may 04 19:35:29 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777944929.356:544): pid=5066 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=2E2F63795F65617379696E7374616C6C2E736820747275652066616C7365 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 04 19:35:31 cruzaLinGeneralPruebas kernel: process '/opt/Cynet/CynetEPS' started with executable stack
+may 04 19:36:18 cruzaLinGeneralPruebas sudo[5502]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl start auditd
+may 04 19:36:18 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1777944978.737:623): pid=5502 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=73797374656D63746C20737461727420617564697464 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 04 19:38:43 cruzaLinGeneralPruebas sudo[7427]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl start cyservice.service
+may 04 19:38:53 cruzaLinGeneralPruebas sudo[7431]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl status cyservice.service
+may 04 19:39:58 cruzaLinGeneralPruebas sudo[7458]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/ls /opt/Cynet/
+may 04 19:42:35 cruzaLinGeneralPruebas sudo[7600]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/ls -r .log
+may 04 19:42:43 cruzaLinGeneralPruebas sudo[7620]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/ls -r .log
+may 04 19:43:02 cruzaLinGeneralPruebas sudo[7625]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/grep -r --include=*.log
+may 04 19:43:46 cruzaLinGeneralPruebas sudo[7647]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/find . -name *.log
+may 04 19:44:24 cruzaLinGeneralPruebas sudo[7652]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/ls -R **/*.log
+may 04 19:50:05 cruzaLinGeneralPruebas polkitd[1370]: Operator of unix-session:2 successfully authenticated as unix-user:cruza to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:8040:278344 [/usr/bin/gnome-text-editor admin:///opt/Cynet/AV/avupdate.log.001] (owned by unix-user:cruza)
+may 04 19:53:15 cruzaLinGeneralPruebas polkitd[1370]: Operator of unix-session:2 successfully authenticated as unix-user:cruza to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:8501:297395 [/usr/bin/gnome-text-editor admin:///opt/Cynet/cyservice%20(Copiar)] (owned by unix-user:cruza)
+may 04 19:58:53 cruzaLinGeneralPruebas polkitd[1370]: Operator of unix-session:2 successfully authenticated as unix-user:cruza to gain TEMPORARY authorization for action org.gtk.vfs.file-operations for unix-process:8911:331135 [/usr/bin/gnome-text-editor admin:///opt/Cynet/DefaultEpsConfig.ini] (owned by unix-user:cruza)
+may 04 20:22:00 cruzaLinGeneralPruebas kernel: process '/opt/Cynet/CynetEPS' started with executable stack
+may 04 20:22:00 cruzaLinGeneralPruebas uninstallCynetEPS[974]: Check if process if there is dpkg lock.
+may 04 20:22:00 cruzaLinGeneralPruebas uninstallCynetEPS[974]: Unlock /var/lib/dpkg/lock
+may 04 20:22:01 cruzaLinGeneralPruebas uninstallCynetEPS[974]: Unlock /var/lib/dpkg/lock-frontend
+may 04 20:22:01 cruzaLinGeneralPruebas uninstallCynetEPS[974]: Trying to remove package if installed
+may 04 20:22:01 cruzaLinGeneralPruebas uninstallCynetEPS[974]: Command dpkg found
+may 04 20:22:01 cruzaLinGeneralPruebas uninstallCynetEPS[1107]: Deseado=desconocido(U)/Instalar/eliminaR/Purgar/retener(H)
+may 04 20:22:01 cruzaLinGeneralPruebas uninstallCynetEPS[1107]: | Estado=No/Inst/ficheros-Conf/desempaqUetado/medio-conF/medio-inst(H)/espera-disparo(W)/pendienTe-disparo
+may 04 20:22:01 cruzaLinGeneralPruebas uninstallCynetEPS[1107]: |/ Err?=(ninguno)/requiere-Reinst (Estado,Err: mayúsc.=malo)
+may 04 20:22:01 cruzaLinGeneralPruebas uninstallCynetEPS[1107]: ||/ Nombre         Versión        Arquitectura Descripción
+may 04 20:22:01 cruzaLinGeneralPruebas uninstallCynetEPS[1107]: +++-==============-==============-============-=================================
+may 04 20:22:01 cruzaLinGeneralPruebas uninstallCynetEPS[1107]: ii  cyneteps       4.32.0.17002-1 amd64        Cynet EDR package
+may 04 20:22:01 cruzaLinGeneralPruebas uninstallCynetEPS[974]: Return value of dpkg list:  0
+may 04 20:22:01 cruzaLinGeneralPruebas uninstallCynetEPS[974]: Purging deb package
+may 04 20:22:02 cruzaLinGeneralPruebas uninstallCynetEPS[1133]: (Leyendo la base de datos ... 189429 ficheros o directorios instalados actualmente.)
+may 04 20:22:02 cruzaLinGeneralPruebas uninstallCynetEPS[1133]: Desinstalando cyneteps (4.32.0.17002-1) ...
+may 04 20:22:02 cruzaLinGeneralPruebas uninstallCynetEPS[1383]: Cynet Package: Print uninstaller argument remove
+may 04 20:22:02 cruzaLinGeneralPruebas uninstallCynetEPS[1383]: Cynet Package: prerm step
+may 04 20:22:02 cruzaLinGeneralPruebas uninstallCynetEPS[1383]: Removing existing service
+may 04 20:22:02 cruzaLinGeneralPruebas uninstallCynetEPS[1383]: uninstalling using systemctl
+may 04 20:22:02 cruzaLinGeneralPruebas uninstallCynetEPS[1383]: daemon-reexec error message:
+may 04 20:22:13 cruzaLinGeneralPruebas systemd[1]: cyservice.service: Killing process 970 (CynetEPS) with signal SIGKILL.
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[3081]: Syntax: /usr/bin/deb-systemd-invoke <action> [<unit file> [<unit file> ...]]
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[1383]: Cynet Package: Removing CynetEPS audit rules if needed.
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[1383]: Cynet Package: No Cynet audit rules configured.
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[1383]: Cynet Package: Run auditctl to remove rules with cynetaukey key.
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[3087]: No rules
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[1383]: Cynet Package: Removing CynetEPS audit plugin if needed.
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[1383]: Cynet Package: No Cynet Audit plugin installed.
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[3091]: Cynet Package: postrm step
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[3091]: It is final remove, need to remove files
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[3091]: Cynet Package: Remove old files
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[3091]: Cynet Package: Erase CynetEPS /Data subfolder
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[3091]: Cynet Package: Erase CynetEPS /AV subfolder
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[1133]: Purgando ficheros de configuración de cyneteps (4.32.0.17002-1) ...
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[3095]: Cynet Package: postrm step
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[3095]: It is final remove, need to remove files
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[3095]: Cynet Package: Remove old files
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[3095]: Cynet Package: Erase CynetEPS /Data subfolder
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[3095]: Cynet Package: Erase CynetEPS /AV subfolder
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[1133]: dpkg: atención: al desinstalar cyneteps, el directorio «/opt/Cynet» no está vacío, por lo que no se borra
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[974]: Trying to remove manual installation
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[974]: Checking for existing service
+may 04 20:22:13 cruzaLinGeneralPruebas uninstallCynetEPS[974]: Removing /opt/Cynet/
+may 04 20:38:07 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: Check if process if there is dpkg lock.
+may 04 20:38:07 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: Unlock /var/lib/dpkg/lock
+may 04 20:38:07 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: Unlock /var/lib/dpkg/lock-frontend
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: Trying to remove package if installed
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: Command dpkg found
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1260]: dpkg-query: no se ha encontrado ningún paquete que corresponda con cyneteps.
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: Return value of dpkg list:  1
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: Trying to remove manual installation
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: Checking for existing service
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: stopping service if running using systemctl
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: removing service if running using update-rc.d
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: removing existing service using update-rc
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: Service is not installed or we try to uninstall not packages EPS version
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]:   try to terminate CynetEPS, if running
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]:   try to terminate avupdate.bin, if running
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]:   try to terminate CynetAV, if running
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: Unlock /opt/Cynet/AV/CynetAV.sock.lock
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: Removing CynetEPS audit rules if needed.
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: No Cynet audit rules configured.
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: Run auditctl to remove rules with cynetaukey key.
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1445]: No rules
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: Removing CynetEPS audit plugin if needed.
+may 04 20:38:08 cruzaLinGeneralPruebas uninstallCynetEPS[1105]: No Cynet Audit plugin installed.
+may 05 13:16:27 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: Check if process if there is dpkg lock.
+may 05 13:16:27 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: Unlock /var/lib/dpkg/lock
+may 05 13:16:27 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: Unlock /var/lib/dpkg/lock-frontend
+may 05 13:16:27 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: Trying to remove package if installed
+may 05 13:16:27 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: Command dpkg found
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1159]: dpkg-query: no se ha encontrado ningún paquete que corresponda con cyneteps.
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: Return value of dpkg list:  1
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: Trying to remove manual installation
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: Checking for existing service
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: stopping service if running using systemctl
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: removing service if running using update-rc.d
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: removing existing service using update-rc
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: Service is not installed or we try to uninstall not packages EPS version
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]:   try to terminate CynetEPS, if running
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]:   try to terminate avupdate.bin, if running
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]:   try to terminate CynetAV, if running
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: Unlock /opt/Cynet/AV/CynetAV.sock.lock
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: Removing CynetEPS audit rules if needed.
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: No Cynet audit rules configured.
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: Run auditctl to remove rules with cynetaukey key.
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1246]: No rules
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: Removing CynetEPS audit plugin if needed.
+may 05 13:16:28 cruzaLinGeneralPruebas uninstallCynetEPS[1013]: No Cynet Audit plugin installed.
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: Check if process if there is dpkg lock.
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: Unlock /var/lib/dpkg/lock
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: Unlock /var/lib/dpkg/lock-frontend
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: Trying to remove package if installed
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: Command dpkg found
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1370]: dpkg-query: no se ha encontrado ningún paquete que corresponda con cyneteps.
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: Return value of dpkg list:  1
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: Trying to remove manual installation
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: Checking for existing service
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: stopping service if running using systemctl
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: removing service if running using update-rc.d
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: removing existing service using update-rc
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: Service is not installed or we try to uninstall not packages EPS version
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]:   try to terminate CynetEPS, if running
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]:   try to terminate avupdate.bin, if running
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]:   try to terminate CynetAV, if running
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: Unlock /opt/Cynet/AV/CynetAV.sock.lock
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: Removing CynetEPS audit rules if needed.
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: No Cynet audit rules configured.
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: Run auditctl to remove rules with cynetaukey key.
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1593]: No rules
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: Removing CynetEPS audit plugin if needed.
+may 06 18:19:28 cruzaLinGeneralPruebas uninstallCynetEPS[1242]: No Cynet Audit plugin installed.
+may 06 18:25:13 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: Check if process if there is dpkg lock.
+may 06 18:25:13 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: Unlock /var/lib/dpkg/lock
+may 06 18:25:13 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: Unlock /var/lib/dpkg/lock-frontend
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: Trying to remove package if installed
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: Command dpkg found
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1189]: dpkg-query: no se ha encontrado ningún paquete que corresponda con cyneteps.
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: Return value of dpkg list:  1
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: Trying to remove manual installation
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: Checking for existing service
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: stopping service if running using systemctl
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: removing service if running using update-rc.d
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: removing existing service using update-rc
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: Service is not installed or we try to uninstall not packages EPS version
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]:   try to terminate CynetEPS, if running
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]:   try to terminate avupdate.bin, if running
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]:   try to terminate CynetAV, if running
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: Unlock /opt/Cynet/AV/CynetAV.sock.lock
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: Removing CynetEPS audit rules if needed.
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: No Cynet audit rules configured.
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: Run auditctl to remove rules with cynetaukey key.
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1338]: No rules
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: Removing CynetEPS audit plugin if needed.
+may 06 18:25:14 cruzaLinGeneralPruebas uninstallCynetEPS[1072]: No Cynet Audit plugin installed.
+may 06 19:17:51 cruzaLinGeneralPruebas sudo[3889]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl stop auditd
+may 06 19:19:03 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778116743.933:484): pid=3916 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=2E2F63792E65617379696E7374616C6C2E736820747275652066616C7365 exe="/usr/bin/sudo" terminal=pts/1 res=failed'
+may 06 19:19:45 cruzaLinGeneralPruebas sudo[3921]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/chmod +x cy_easyinstall.sh
+may 06 19:19:45 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778116785.994:486): pid=3921 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=63686D6F64202B782063795F65617379696E7374616C6C2E7368 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 06 19:19:55 cruzaLinGeneralPruebas sudo[3926]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+may 06 19:19:55 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778116795.213:492): pid=3926 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=2E2F63795F65617379696E7374616C6C2E736820747275652066616C7365 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 06 19:19:57 cruzaLinGeneralPruebas kernel: process '/opt/Cynet/CynetEPS' started with executable stack
+may 06 19:21:15 cruzaLinGeneralPruebas sudo[4344]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl status cyservice.service
+may 06 19:21:15 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778116875.646:573): pid=4344 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=73797374656D63746C20737461747573206379736572766963652E73657276696365 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 06 19:22:15 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778116935.606:579): pid=4352 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=73797374656D63746C207374617475732063796E6574657073 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 06 19:22:15 cruzaLinGeneralPruebas sudo[4352]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl status cyneteps
+may 06 19:22:24 cruzaLinGeneralPruebas sudo[4356]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl status cyneteps
+may 06 19:22:24 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778116944.244:585): pid=4356 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=73797374656D63746C207374617475732063796E6574657073 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 06 19:22:49 cruzaLinGeneralPruebas kernel: audit: type=1305 audit(1778116969.689:592): auid=4294967295 ses=4294967295 subj=unconfined op=add_rule key="cynetaukey" list=4 res=1
+may 06 19:22:49 cruzaLinGeneralPruebas kernel: audit: type=1335 audit(1778116969.691:593): pid=4364 uid=0 auid=4294967295 tty=(none) ses=4294967295 subj=unconfined comm="Cy_AuditM" exe="/opt/Cynet/CynetEPS" nl-mcgrp=1 op=connect res=1
+may 06 19:22:49 cruzaLinGeneralPruebas kernel: audit: type=1300 audit(1778116969.691:593): arch=c000003e syscall=49 success=yes exit=0 a0=1b a1=7dfc2d5fde74 a2=c a3=1 items=0 ppid=1 pid=4364 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="Cy_AuditM" exe="/opt/Cynet/CynetEPS" subj=unconfined key=(null)
+may 06 19:22:50 cruzaLinGeneralPruebas kernel: audit: type=1305 audit(1778116970.914:594): auid=4294967295 ses=4294967295 subj=unconfined op=remove_rule key="cynetaukey" list=4 res=1
+may 06 19:22:54 cruzaLinGeneralPruebas kernel: audit: type=1305 audit(1778116974.722:606): auid=4294967295 ses=4294967295 subj=unconfined op=remove_rule key="cynetaukey" list=4 res=1
+may 06 19:22:54 cruzaLinGeneralPruebas kernel: audit: type=1305 audit(1778116974.729:607): auid=4294967295 ses=4294967295 subj=unconfined op=add_rule key="cynetaukey" list=4 res=1
+may 06 19:22:54 cruzaLinGeneralPruebas kernel: audit: type=1305 audit(1778116974.734:608): auid=4294967295 ses=4294967295 subj=unconfined op=remove_rule key="cynetaukey" list=4 res=1
+may 06 19:28:40 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778117320.467:624): pid=6394 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=63686D6F64202B782063795F756E696E7374616C6C2E7368 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 06 19:28:40 cruzaLinGeneralPruebas sudo[6394]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/chmod +x cy_uninstall.sh
+may 06 19:28:57 cruzaLinGeneralPruebas sudo[6399]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_uninstall.sh
+may 06 19:28:57 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778117337.303:630): pid=6399 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd="./cy_uninstall.sh" exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 06 19:33:17 cruzaLinGeneralPruebas sudo[6719]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl stop cyservice.service
+may 06 19:33:17 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778117597.597:726): pid=6719 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=73797374656D63746C2073746F70206379736572766963652E73657276696365 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 06 19:33:26 cruzaLinGeneralPruebas sudo[6723]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl stop cyneteps
+may 06 19:33:26 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778117606.833:732): pid=6723 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=73797374656D63746C2073746F702063796E6574657073 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 06 19:48:41 cruzaLinGeneralPruebas sudo[7156]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/rm -rf /opt/Cynet
+may 06 19:48:41 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778118521.675:811): pid=7156 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=726D202D7266202F6F70742F43796E6574 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 06 20:05:34 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778119534.536:846): pid=7316 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=6170742D6D61726B20756E686F6C6420737973646967 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 06 20:05:34 cruzaLinGeneralPruebas sudo[7316]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/apt-mark unhold sysdig
+may 06 20:06:34 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778119594.095:852): pid=7326 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=6170742D6765742072656D6F7665202D2D707572676520737973646967202D79 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 06 20:06:34 cruzaLinGeneralPruebas sudo[7326]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/apt-get remove --purge sysdig -y
+may 06 20:08:42 cruzaLinGeneralPruebas sudo[7335]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/rm -rf /var/lib/dkms/scap*
+may 06 20:08:42 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778119722.021:858): pid=7335 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=726D202D7266202F7661722F6C69622F646B6D732F736361702A exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 06 20:08:47 cruzaLinGeneralPruebas sudo[7338]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/rm -rf /usr/src/scap*
+may 06 20:08:47 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778119727.922:864): pid=7338 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=726D202D7266202F7573722F7372632F736361702A exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 06 20:09:03 cruzaLinGeneralPruebas sudo[7342]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+may 06 20:09:03 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778119743.498:870): pid=7342 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=64706B67202D2D636F6E666967757265202D61 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 06 20:09:08 cruzaLinGeneralPruebas sudo[7345]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/apt-get install -f –y
+may 06 20:09:08 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778119748.103:876): pid=7345 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=6170742D67657420696E7374616C6C202D6620E2809379 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 08 12:07:45 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: Check if process if there is dpkg lock.
+may 08 12:07:45 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: Unlock /var/lib/dpkg/lock
+may 08 12:07:45 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: Unlock /var/lib/dpkg/lock-frontend
+may 08 12:07:45 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: Trying to remove package if installed
+may 08 12:07:45 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: Command dpkg found
+may 08 12:07:45 cruzaLinGeneralPruebas uninstallCynetEPS[1201]: dpkg-query: no se ha encontrado ningún paquete que corresponda con cyneteps.
+may 08 12:07:45 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: Return value of dpkg list:  1
+may 08 12:07:45 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: Trying to remove manual installation
+may 08 12:07:45 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: Checking for existing service
+may 08 12:07:45 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: stopping service if running using systemctl
+may 08 12:07:45 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: removing service if running using update-rc.d
+may 08 12:07:45 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: removing existing service using update-rc
+may 08 12:07:45 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: Service is not installed or we try to uninstall not packages EPS version
+may 08 12:07:45 cruzaLinGeneralPruebas uninstallCynetEPS[1063]:   try to terminate CynetEPS, if running
+may 08 12:07:46 cruzaLinGeneralPruebas uninstallCynetEPS[1063]:   try to terminate avupdate.bin, if running
+may 08 12:07:46 cruzaLinGeneralPruebas uninstallCynetEPS[1063]:   try to terminate CynetAV, if running
+may 08 12:07:46 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: Unlock /opt/Cynet/AV/CynetAV.sock.lock
+may 08 12:07:46 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: Removing CynetEPS audit rules if needed.
+may 08 12:07:46 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: No Cynet audit rules configured.
+may 08 12:07:46 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: Run auditctl to remove rules with cynetaukey key.
+may 08 12:07:46 cruzaLinGeneralPruebas uninstallCynetEPS[1355]: No rules
+may 08 12:07:46 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: Removing CynetEPS audit plugin if needed.
+may 08 12:07:46 cruzaLinGeneralPruebas uninstallCynetEPS[1063]: No Cynet Audit plugin installed.
+may 08 12:09:14 cruzaLinGeneralPruebas sudo[3597]:    cruza : TTY=pts/0 ; PWD=/home/cruza ; USER=root ; COMMAND=/usr/bin/systemctl status cyneteps
+may 08 12:12:03 cruzaLinGeneralPruebas sudo[3706]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+may 08 12:12:03 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778263923.246:353): pid=3706 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=2E2F63795F65617379696E7374616C6C2E736820747275652066616C7365 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 08 12:12:05 cruzaLinGeneralPruebas kernel: process '/opt/Cynet/CynetEPS' started with executable stack
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4255]: Check if process if there is dpkg lock.
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4255]: Unlock /var/lib/dpkg/lock
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4261]: lsof: WARNING: can't stat() fuse.portal file system /run/user/1000/doc
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4261]:       Output information may be incomplete.
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4261]: lsof: WARNING: can't stat() fuse.gvfsd-fuse file system /run/user/1000/gvfs
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4261]:       Output information may be incomplete.
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4255]: Unlock /var/lib/dpkg/lock-frontend
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4263]: lsof: WARNING: can't stat() fuse.portal file system /run/user/1000/doc
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4263]:       Output information may be incomplete.
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4263]: lsof: WARNING: can't stat() fuse.gvfsd-fuse file system /run/user/1000/gvfs
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4263]:       Output information may be incomplete.
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4255]: Trying to remove package if installed
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4255]: Command dpkg found
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4265]: Deseado=desconocido(U)/Instalar/eliminaR/Purgar/retener(H)
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4265]: | Estado=No/Inst/ficheros-Conf/desempaqUetado/medio-conF/medio-inst(H)/espera-disparo(W)/pendienTe-disparo
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4265]: |/ Err?=(ninguno)/requiere-Reinst (Estado,Err: mayúsc.=malo)
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4265]: ||/ Nombre         Versión        Arquitectura Descripción
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4265]: +++-==============-==============-============-=================================
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4265]: ii  cyneteps       4.32.0.17002-1 amd64        Cynet EDR package
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4255]: Return value of dpkg list:  0
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4255]: Purging deb package
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4266]: (Leyendo la base de datos ... 229700 ficheros o directorios instalados actualmente.)
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4266]: Desinstalando cyneteps (4.32.0.17002-1) ...
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4267]: Cynet Package: Print uninstaller argument remove
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4267]: Cynet Package: prerm step
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4267]: Removing existing service
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4267]: uninstalling using systemctl
+may 08 12:12:21 cruzaLinGeneralPruebas uninstallCynetEPS[4267]: daemon-reexec error message:
+may 08 12:12:31 cruzaLinGeneralPruebas systemd[1]: cyservice.service: Killing process 4061 (CynetEPS) with signal SIGKILL.
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4564]: Syntax: /usr/bin/deb-systemd-invoke <action> [<unit file> [<unit file> ...]]
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4267]: Cynet Package: Removing CynetEPS audit rules if needed.
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4267]: Cynet Package: No Cynet audit rules configured.
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4267]: Cynet Package: Run auditctl to remove rules with cynetaukey key.
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4567]: No rules
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4267]: Cynet Package: Removing CynetEPS audit plugin if needed.
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4267]: Cynet Package: No Cynet Audit plugin installed.
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4570]: Cynet Package: postrm step
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4570]: It is final remove, need to remove files
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4570]: Cynet Package: Remove old files
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4570]: Cynet Package: Erase CynetEPS /Data subfolder
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4570]: Cynet Package: Erase CynetEPS /AV subfolder
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4266]: Purgando ficheros de configuración de cyneteps (4.32.0.17002-1) ...
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4573]: Cynet Package: postrm step
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4573]: It is final remove, need to remove files
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4573]: Cynet Package: Remove old files
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4573]: Cynet Package: Erase CynetEPS /Data subfolder
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4573]: Cynet Package: Erase CynetEPS /AV subfolder
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4266]: dpkg: atención: al desinstalar cyneteps, el directorio «/opt/Cynet» no está vacío, por lo que no se borra
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4255]: Trying to remove manual installation
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4255]: Checking for existing service
+may 08 12:12:31 cruzaLinGeneralPruebas uninstallCynetEPS[4255]: Removing /opt/Cynet/
+may 08 12:13:52 cruzaLinGeneralPruebas sudo[5912]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl status cyservice.service
+may 08 12:15:36 cruzaLinGeneralPruebas sudo[5990]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+may 08 12:15:36 cruzaLinGeneralPruebas kernel: audit: type=1123 audit(1778264136.763:670): pid=5990 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=2E2F63795F65617379696E7374616C6C2E736820747275652066616C7365 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 08 12:17:31 cruzaLinGeneralPruebas kernel: audit: type=1305 audit(1778264251.702:757): auid=4294967295 ses=4294967295 subj=unconfined op=add_rule key="cynetaukey" list=4 res=1
+may 08 12:17:31 cruzaLinGeneralPruebas kernel: audit: type=1335 audit(1778264251.708:758): pid=6421 uid=0 auid=4294967295 tty=(none) ses=4294967295 subj=unconfined comm="Cy_AuditM" exe="/opt/Cynet/CynetEPS" nl-mcgrp=1 op=connect res=1
+may 08 12:17:31 cruzaLinGeneralPruebas kernel: audit: type=1300 audit(1778264251.708:758): arch=c000003e syscall=49 success=yes exit=0 a0=1c a1=77c3045fde74 a2=c a3=1 items=0 ppid=1 pid=6421 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="Cy_AuditM" exe="/opt/Cynet/CynetEPS" subj=unconfined key=(null)
+may 08 12:17:32 cruzaLinGeneralPruebas kernel: audit: type=1305 audit(1778264252.910:759): auid=4294967295 ses=4294967295 subj=unconfined op=remove_rule key="cynetaukey" list=4 res=1
+may 08 12:18:31 cruzaLinGeneralPruebas kernel: audit: type=1300 audit(1778264311.506:765): arch=c000003e syscall=257 success=yes exit=35 a0=ffffff9c a1=649e72423c30 a2=800c2 a3=1b6 items=2 ppid=2382 pid=2409 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="wireplumber" exe="/usr/bin/wireplumber" subj=unconfined key="cynetaukey"
+may 08 12:18:31 cruzaLinGeneralPruebas kernel: audit: type=1300 audit(1778264311.506:766): arch=c000003e syscall=82 success=yes exit=0 a0=649e72423c30 a1=649e723f9d80 a2=0 a3=1a1 items=5 ppid=2382 pid=2409 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="wireplumber" exe="/usr/bin/wireplumber" subj=unconfined key="cynetaukey"
+may 08 12:18:57 cruzaLinGeneralPruebas kernel: audit: type=1300 audit(1778264337.431:768): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=619fa0936038 a2=2 a3=0 items=1 ppid=3690 pid=27527 auid=1000 uid=1000 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=3 comm="sudo" exe="/usr/bin/sudo" subj=unconfined key="cynetaukey"
+may 08 12:18:57 cruzaLinGeneralPruebas kernel: audit: type=1307 audit(1778264337.431:768): cwd="/home/cruza/Documentos/Repositorios/cynet"
+may 08 12:18:57 cruzaLinGeneralPruebas sudo[27527]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/hostnamectl set-hostname Cruza2LinGeneralPruebas
+may 08 12:18:57 cruzaLinGeneralPruebas kernel: audit: type=1300 audit(1778264337.435:769): arch=c000003e syscall=257 success=yes exit=7 a0=6 a1=7ffebc492b65 a2=42 a3=180 items=1 ppid=3690 pid=27527 auid=1000 uid=1000 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=3 comm="sudo" exe="/usr/bin/sudo" subj=unconfined key="cynetaukey"
+may 08 12:18:57 cruzaLinGeneralPruebas kernel: audit: type=1307 audit(1778264337.435:769): cwd="/home/cruza/Documentos/Repositorios/cynet"
+may 08 12:19:01 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778264341.941:785): arch=c000003e syscall=257 success=yes exit=15 a0=ffffff9c a1=7db4800010a0 a2=42 a3=180 items=1 ppid=2576 pid=3557 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="update-notifier" exe="/usr/bin/update-notifier" subj=unconfined key="cynetaukey"
+may 08 12:19:02 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778264342.261:786): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=6475cc424038 a2=2 a3=0 items=1 ppid=3690 pid=28729 auid=1000 uid=1000 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=3 comm="sudo" exe="/usr/bin/sudo" subj=unconfined key="cynetaukey"
+may 08 12:19:02 Cruza2LinGeneralPruebas kernel: audit: type=1307 audit(1778264342.261:786): cwd="/home/cruza/Documentos/Repositorios/cynet"
+may 08 12:19:03 Cruza2LinGeneralPruebas sudo[28729]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/sbin/reboot
+may 08 12:19:03 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778264343.996:787): arch=c000003e syscall=257 success=yes exit=7 a0=6 a1=7ffd51e002b5 a2=42 a3=180 items=1 ppid=3690 pid=28729 auid=1000 uid=1000 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=3 comm="sudo" exe="/usr/bin/sudo" subj=unconfined key="cynetaukey"
+may 08 12:19:03 Cruza2LinGeneralPruebas kernel: audit: type=1307 audit(1778264343.996:787): cwd="/home/cruza/Documentos/Repositorios/cynet"
+may 08 12:19:14 Cruza2LinGeneralPruebas systemd[1]: cyservice.service: Killing process 6421 (CynetEPS) with signal SIGKILL.
+may 08 12:19:22 Cruza2LinGeneralPruebas kernel: process '/opt/Cynet/CynetEPS' started with executable stack
+may 08 12:19:22 Cruza2LinGeneralPruebas uninstallCynetEPS[1092]: Check if process if there is dpkg lock.
+may 08 12:19:22 Cruza2LinGeneralPruebas uninstallCynetEPS[1092]: Unlock /var/lib/dpkg/lock
+may 08 12:19:23 Cruza2LinGeneralPruebas uninstallCynetEPS[1092]: Unlock /var/lib/dpkg/lock-frontend
+may 08 12:19:23 Cruza2LinGeneralPruebas uninstallCynetEPS[1092]: Trying to remove package if installed
+may 08 12:19:23 Cruza2LinGeneralPruebas uninstallCynetEPS[1092]: Command dpkg found
+may 08 12:19:23 Cruza2LinGeneralPruebas uninstallCynetEPS[1196]: Deseado=desconocido(U)/Instalar/eliminaR/Purgar/retener(H)
+may 08 12:19:23 Cruza2LinGeneralPruebas uninstallCynetEPS[1196]: | Estado=No/Inst/ficheros-Conf/desempaqUetado/medio-conF/medio-inst(H)/espera-disparo(W)/pendienTe-disparo
+may 08 12:19:23 Cruza2LinGeneralPruebas uninstallCynetEPS[1196]: |/ Err?=(ninguno)/requiere-Reinst (Estado,Err: mayúsc.=malo)
+may 08 12:19:23 Cruza2LinGeneralPruebas uninstallCynetEPS[1196]: ||/ Nombre         Versión        Arquitectura Descripción
+may 08 12:19:23 Cruza2LinGeneralPruebas uninstallCynetEPS[1196]: +++-==============-==============-============-=================================
+may 08 12:19:23 Cruza2LinGeneralPruebas uninstallCynetEPS[1196]: ii  cyneteps       4.32.0.17002-1 amd64        Cynet EDR package
+may 08 12:19:23 Cruza2LinGeneralPruebas uninstallCynetEPS[1092]: Return value of dpkg list:  0
+may 08 12:19:23 Cruza2LinGeneralPruebas uninstallCynetEPS[1092]: Purging deb package
+may 08 12:19:24 Cruza2LinGeneralPruebas uninstallCynetEPS[1239]: (Leyendo la base de datos ... 189639 ficheros o directorios instalados actualmente.)
+may 08 12:19:24 Cruza2LinGeneralPruebas uninstallCynetEPS[1239]: Desinstalando cyneteps (4.32.0.17002-1) ...
+may 08 12:19:24 Cruza2LinGeneralPruebas uninstallCynetEPS[1409]: Cynet Package: Print uninstaller argument remove
+may 08 12:19:24 Cruza2LinGeneralPruebas uninstallCynetEPS[1409]: Cynet Package: prerm step
+may 08 12:19:24 Cruza2LinGeneralPruebas uninstallCynetEPS[1409]: Removing existing service
+may 08 12:19:24 Cruza2LinGeneralPruebas uninstallCynetEPS[1409]: uninstalling using systemctl
+may 08 12:19:25 Cruza2LinGeneralPruebas uninstallCynetEPS[1409]: daemon-reexec error message:
+may 08 12:19:35 Cruza2LinGeneralPruebas systemd[1]: cyservice.service: Killing process 1082 (CynetEPS) with signal SIGKILL.
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[2229]: Syntax: /usr/bin/deb-systemd-invoke <action> [<unit file> [<unit file> ...]]
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[1409]: Cynet Package: Removing CynetEPS audit rules if needed.
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[1409]: Cynet Package: No Cynet audit rules configured.
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[1409]: Cynet Package: Run auditctl to remove rules with cynetaukey key.
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[2232]: No rules
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[1409]: Cynet Package: Removing CynetEPS audit plugin if needed.
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[1409]: Cynet Package: No Cynet Audit plugin installed.
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[2235]: Cynet Package: postrm step
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[2235]: It is final remove, need to remove files
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[2235]: Cynet Package: Remove old files
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[2235]: Cynet Package: Erase CynetEPS /Data subfolder
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[2235]: Cynet Package: Erase CynetEPS /AV subfolder
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[1239]: Purgando ficheros de configuración de cyneteps (4.32.0.17002-1) ...
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[2238]: Cynet Package: postrm step
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[2238]: It is final remove, need to remove files
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[2238]: Cynet Package: Remove old files
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[2238]: Cynet Package: Erase CynetEPS /Data subfolder
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[2238]: Cynet Package: Erase CynetEPS /AV subfolder
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[1239]: dpkg: atención: al desinstalar cyneteps, el directorio «/opt/Cynet» no está vacío, por lo que no se borra
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[1092]: Trying to remove manual installation
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[1092]: Checking for existing service
+may 08 12:19:35 Cruza2LinGeneralPruebas uninstallCynetEPS[1092]: Removing /opt/Cynet/
+may 08 12:22:11 Cruza2LinGeneralPruebas sudo[3740]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+may 08 12:22:11 Cruza2LinGeneralPruebas kernel: audit: type=1123 audit(1778264531.414:484): pid=3740 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=2E2F63795F65617379696E7374616C6C2E736820747275652066616C7365 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 08 12:22:32 Cruza2LinGeneralPruebas sudo[4156]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl status cyneteps
+may 08 12:22:32 Cruza2LinGeneralPruebas kernel: audit: type=1123 audit(1778264552.920:563): pid=4156 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=73797374656D63746C207374617475732063796E6574657073 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 08 12:24:19 Cruza2LinGeneralPruebas kernel: audit: type=1305 audit(1778264659.399:570): auid=4294967295 ses=4294967295 subj=unconfined op=add_rule key="cynetaukey" list=4 res=1
+may 08 12:24:19 Cruza2LinGeneralPruebas kernel: audit: type=1335 audit(1778264659.406:571): pid=4172 uid=0 auid=4294967295 tty=(none) ses=4294967295 subj=unconfined comm="Cy_AuditM" exe="/opt/Cynet/CynetEPS" nl-mcgrp=1 op=connect res=1
+may 08 12:24:19 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778264659.406:571): arch=c000003e syscall=49 success=yes exit=0 a0=1c a1=7efe281fde74 a2=c a3=1 items=0 ppid=1 pid=4172 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="Cy_AuditM" exe="/opt/Cynet/CynetEPS" subj=unconfined key=(null)
+may 08 12:24:21 Cruza2LinGeneralPruebas kernel: audit: type=1305 audit(1778264661.669:572): auid=4294967295 ses=4294967295 subj=unconfined op=remove_rule key="cynetaukey" list=4 res=1
+may 08 12:25:01 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778264701.757:588): arch=c000003e syscall=257 success=yes exit=6 a0=ffffff9c a1=728422bcb462 a2=410082 a3=180 items=1 ppid=1191 pid=14805 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cron" exe="/usr/sbin/cron" subj=unconfined key="cynetaukey"
+may 08 12:26:37 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778264797.943:599): arch=c000003e syscall=257 success=yes exit=130 a0=ffffff9c a1=5812341a40a0 a2=a0041 a3=1b6 items=1 ppid=2275 pid=2514 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="gnome-shell" exe="/usr/bin/gnome-shell" subj=unconfined key="cynetaukey"
+may 08 12:26:37 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778264797.943:600): arch=c000003e syscall=257 success=yes exit=132 a0=ffffff9c a1=581232baf3b0 a2=800c1 a3=1b6 items=2 ppid=2275 pid=2514 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="gnome-shell" exe="/usr/bin/gnome-shell" subj=unconfined key="cynetaukey"
+may 08 12:26:37 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778264797.944:601): arch=c000003e syscall=82 success=yes exit=0 a0=581232baf3b0 a1=581237f58e00 a2=0 a3=0 items=5 ppid=2275 pid=2514 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="pool-gnome-shel" exe="/usr/bin/gnome-shell" subj=unconfined key="cynetaukey"
+may 08 12:29:16 Cruza2LinGeneralPruebas kernel: audit: type=1305 audit(1778264956.889:602): auid=4294967295 ses=4294967295 subj=unconfined op=remove_rule key="cynetaukey" list=4 res=1
+may 08 12:29:16 Cruza2LinGeneralPruebas kernel: audit: type=1305 audit(1778264956.896:603): auid=4294967295 ses=4294967295 subj=unconfined op=add_rule key="cynetaukey" list=4 res=1
+may 08 12:29:21 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778264961.196:604): arch=c000003e syscall=257 success=yes exit=45 a0=ffffff9c a1=5812341cc580 a2=a0041 a3=1b6 items=1 ppid=2275 pid=2514 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="gnome-shell" exe="/usr/bin/gnome-shell" subj=unconfined key="cynetaukey"
+may 08 12:29:23 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778264963.472:619): arch=c000003e syscall=257 success=yes exit=95 a0=ffffff9c a1=581237726dc0 a2=42 a3=180 items=2 ppid=2275 pid=2514 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="gnome-shell" exe="/usr/bin/gnome-shell" subj=unconfined key="cynetaukey"
+may 08 12:29:23 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778264963.475:620): arch=c000003e syscall=257 success=yes exit=12 a0=ffffff9c a1=5928fc57e930 a2=42 a3=180 items=1 ppid=2275 pid=3687 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="nautilus" exe="/usr/bin/nautilus" subj=unconfined key="cynetaukey"
+may 08 12:29:38 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778264978.013:622): arch=c000003e syscall=49 success=yes exit=0 a0=a a1=7ffe48e3ecc0 a2=6e a3=0 items=2 ppid=1586 pid=2257 auid=1000 uid=0 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="gdm-session-wor" exe="/usr/libexec/gdm-session-worker" subj=unconfined key="cynetaukey"
+may 08 12:29:38 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778264978.013:623): arch=c000003e syscall=49 success=yes exit=0 a0=b a1=7ffe48e3ecc0 a2=6e a3=0 items=2 ppid=1586 pid=2257 auid=1000 uid=0 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="gdm-session-wor" exe="/usr/libexec/gdm-session-worker" subj=unconfined key="cynetaukey"
+may 08 12:30:01 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778265001.766:626): arch=c000003e syscall=257 success=yes exit=6 a0=ffffff9c a1=728422bcb462 a2=410082 a3=180 items=1 ppid=1191 pid=88235 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cron" exe="/usr/sbin/cron" subj=unconfined key="cynetaukey"
+may 08 12:30:01 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778265001.770:629): arch=c000003e syscall=257 success=yes exit=7 a0=ffffff9c a1=72842293d02e a2=20002 a3=0 items=1 ppid=1191 pid=88235 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cron" exe="/usr/sbin/cron" subj=unconfined key="cynetaukey"
+may 08 12:30:09 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778265008.998:639): arch=c000003e syscall=257 success=yes exit=13 a0=ffffff9c a1=5d54184a7ee0 a2=42 a3=180 items=1 ppid=2275 pid=2627 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="gsd-color" exe="/usr/libexec/gsd-color" subj=unconfined key="cynetaukey"
+may 08 12:30:17 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778265017.093:643): arch=c000003e syscall=257 success=yes exit=7 a0=ffffff9c a1=5fe952057200 a2=800c2 a3=1b6 items=2 ppid=2275 pid=3032 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="dconf-service" exe="/usr/libexec/dconf-service" subj=unconfined key="cynetaukey"
+may 08 12:30:17 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778265017.095:644): arch=c000003e syscall=82 success=yes exit=0 a0=5fe952057200 a1=5fe95202c0e0 a2=0 a3=130b items=5 ppid=2275 pid=3032 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="dconf-service" exe="/usr/libexec/dconf-service" subj=unconfined key="cynetaukey"
+may 08 12:30:22 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778265022.930:670): arch=c000003e syscall=87 success=yes exit=0 a0=58a61b07d410 a1=1 a2=70bbecef92a0 a3=1 items=2 ppid=1586 pid=2257 auid=1000 uid=0 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="gdm-session-wor" exe="/usr/libexec/gdm-session-worker" subj=unconfined key="cynetaukey"
+may 08 12:30:22 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778265022.930:671): arch=c000003e syscall=87 success=yes exit=0 a0=58a61b07e010 a1=1 a2=70bbecef92a0 a3=1 items=2 ppid=1586 pid=2257 auid=1000 uid=0 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=2 comm="gdm-session-wor" exe="/usr/libexec/gdm-session-worker" subj=unconfined key="cynetaukey"
+may 08 12:30:37 Cruza2LinGeneralPruebas kernel: process '/opt/Cynet/CynetEPS' started with executable stack
+may 08 12:30:37 Cruza2LinGeneralPruebas uninstallCynetEPS[1034]: Check if process if there is dpkg lock.
+may 08 12:30:37 Cruza2LinGeneralPruebas uninstallCynetEPS[1034]: Unlock /var/lib/dpkg/lock
+may 08 12:30:37 Cruza2LinGeneralPruebas uninstallCynetEPS[1034]: Unlock /var/lib/dpkg/lock-frontend
+may 08 12:30:38 Cruza2LinGeneralPruebas uninstallCynetEPS[1034]: Trying to remove package if installed
+may 08 12:30:38 Cruza2LinGeneralPruebas uninstallCynetEPS[1034]: Command dpkg found
+may 08 12:30:38 Cruza2LinGeneralPruebas uninstallCynetEPS[1194]: Deseado=desconocido(U)/Instalar/eliminaR/Purgar/retener(H)
+may 08 12:30:38 Cruza2LinGeneralPruebas uninstallCynetEPS[1194]: | Estado=No/Inst/ficheros-Conf/desempaqUetado/medio-conF/medio-inst(H)/espera-disparo(W)/pendienTe-disparo
+may 08 12:30:38 Cruza2LinGeneralPruebas uninstallCynetEPS[1194]: |/ Err?=(ninguno)/requiere-Reinst (Estado,Err: mayúsc.=malo)
+may 08 12:30:38 Cruza2LinGeneralPruebas uninstallCynetEPS[1194]: ||/ Nombre         Versión        Arquitectura Descripción
+may 08 12:30:38 Cruza2LinGeneralPruebas uninstallCynetEPS[1194]: +++-==============-==============-============-=================================
+may 08 12:30:38 Cruza2LinGeneralPruebas uninstallCynetEPS[1194]: ii  cyneteps       4.32.0.17002-1 amd64        Cynet EDR package
+may 08 12:30:38 Cruza2LinGeneralPruebas uninstallCynetEPS[1034]: Return value of dpkg list:  0
+may 08 12:30:38 Cruza2LinGeneralPruebas uninstallCynetEPS[1034]: Purging deb package
+may 08 12:30:39 Cruza2LinGeneralPruebas uninstallCynetEPS[1243]: (Leyendo la base de datos ... 189639 ficheros o directorios instalados actualmente.)
+may 08 12:30:39 Cruza2LinGeneralPruebas uninstallCynetEPS[1243]: Desinstalando cyneteps (4.32.0.17002-1) ...
+may 08 12:30:39 Cruza2LinGeneralPruebas uninstallCynetEPS[1419]: Cynet Package: Print uninstaller argument remove
+may 08 12:30:39 Cruza2LinGeneralPruebas uninstallCynetEPS[1419]: Cynet Package: prerm step
+may 08 12:30:39 Cruza2LinGeneralPruebas uninstallCynetEPS[1419]: Removing existing service
+may 08 12:30:39 Cruza2LinGeneralPruebas uninstallCynetEPS[1419]: uninstalling using systemctl
+may 08 12:30:39 Cruza2LinGeneralPruebas uninstallCynetEPS[1419]: daemon-reexec error message:
+may 08 12:30:50 Cruza2LinGeneralPruebas systemd[1]: cyservice.service: Killing process 1029 (CynetEPS) with signal SIGKILL.
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[2220]: Syntax: /usr/bin/deb-systemd-invoke <action> [<unit file> [<unit file> ...]]
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[1419]: Cynet Package: Removing CynetEPS audit rules if needed.
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[1419]: Cynet Package: No Cynet audit rules configured.
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[1419]: Cynet Package: Run auditctl to remove rules with cynetaukey key.
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[2224]: No rules
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[1419]: Cynet Package: Removing CynetEPS audit plugin if needed.
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[1419]: Cynet Package: No Cynet Audit plugin installed.
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[2227]: Cynet Package: postrm step
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[2227]: It is final remove, need to remove files
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[2227]: Cynet Package: Remove old files
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[2227]: Cynet Package: Erase CynetEPS /Data subfolder
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[2227]: Cynet Package: Erase CynetEPS /AV subfolder
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[1243]: Purgando ficheros de configuración de cyneteps (4.32.0.17002-1) ...
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[2230]: Cynet Package: postrm step
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[2230]: It is final remove, need to remove files
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[2230]: Cynet Package: Remove old files
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[2230]: Cynet Package: Erase CynetEPS /Data subfolder
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[2230]: Cynet Package: Erase CynetEPS /AV subfolder
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[1243]: dpkg: atención: al desinstalar cyneteps, el directorio «/opt/Cynet» no está vacío, por lo que no se borra
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[1034]: Trying to remove manual installation
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[1034]: Checking for existing service
+may 08 12:30:50 Cruza2LinGeneralPruebas uninstallCynetEPS[1034]: Removing /opt/Cynet/
+may 08 12:35:56 Cruza2LinGeneralPruebas sudo[3814]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_uninstall.sh
+may 08 12:36:22 Cruza2LinGeneralPruebas sudo[3848]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/sbin/reboot
+may 08 12:36:34 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: Check if process if there is dpkg lock.
+may 08 12:36:34 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: Unlock /var/lib/dpkg/lock
+may 08 12:36:34 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: Unlock /var/lib/dpkg/lock-frontend
+may 08 12:36:34 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: Trying to remove package if installed
+may 08 12:36:34 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: Command dpkg found
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[1094]: dpkg-query: no se ha encontrado ningún paquete que corresponda con cyneteps.
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: Return value of dpkg list:  1
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: Trying to remove manual installation
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: Checking for existing service
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: stopping service if running using systemctl
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: removing service if running using update-rc.d
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: removing existing service using update-rc
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: Service is not installed or we try to uninstall not packages EPS version
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]:   try to terminate CynetEPS, if running
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]:   try to terminate avupdate.bin, if running
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]:   try to terminate CynetAV, if running
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: Unlock /opt/Cynet/AV/CynetAV.sock.lock
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: Removing CynetEPS audit rules if needed.
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: No Cynet audit rules configured.
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: Run auditctl to remove rules with cynetaukey key.
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[1239]: No rules
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: Removing CynetEPS audit plugin if needed.
+may 08 12:36:35 Cruza2LinGeneralPruebas uninstallCynetEPS[964]: No Cynet Audit plugin installed.
+may 08 12:38:26 Cruza2LinGeneralPruebas kernel: audit: type=1123 audit(1778265506.900:335): pid=3440 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=2E2F63795F65617379696E7374616C6C2E736820747275652066616C7365 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 08 12:38:26 Cruza2LinGeneralPruebas sudo[3440]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+may 08 12:38:28 Cruza2LinGeneralPruebas kernel: process '/opt/Cynet/CynetEPS' started with executable stack
+may 08 12:38:56 Cruza2LinGeneralPruebas kernel: audit: type=1123 audit(1778265536.259:414): pid=3810 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=73797374656D63746C2073746174757320637973657276696365 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 08 12:38:56 Cruza2LinGeneralPruebas sudo[3810]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl status cyservice
+may 08 12:40:15 Cruza2LinGeneralPruebas sudo[3880]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl start cyservice.service
+may 08 12:40:15 Cruza2LinGeneralPruebas kernel: audit: type=1123 audit(1778265615.577:424): pid=3880 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=73797374656D63746C207374617274206379736572766963652E73657276696365 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 08 12:40:22 Cruza2LinGeneralPruebas kernel: audit: type=1305 audit(1778265622.062:429): auid=4294967295 ses=4294967295 subj=unconfined op=add_rule key="cynetaukey" list=4 res=1
+may 08 12:40:22 Cruza2LinGeneralPruebas kernel: audit: type=1335 audit(1778265622.063:430): pid=3872 uid=0 auid=4294967295 tty=(none) ses=4294967295 subj=unconfined comm="Cy_AuditM" exe="/opt/Cynet/CynetEPS" nl-mcgrp=1 op=connect res=1
+may 08 12:40:22 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778265622.063:430): arch=c000003e syscall=49 success=yes exit=0 a0=1c a1=74e7f75fde74 a2=c a3=1 items=0 ppid=1 pid=3872 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="Cy_AuditM" exe="/opt/Cynet/CynetEPS" subj=unconfined key=(null)
+may 08 12:40:24 Cruza2LinGeneralPruebas kernel: audit: type=1305 audit(1778265624.257:431): auid=4294967295 ses=4294967295 subj=unconfined op=remove_rule key="cynetaukey" list=4 res=1
+may 08 12:40:27 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778265627.450:437): arch=c000003e syscall=257 success=yes exit=3 a0=ffffff9c a1=56c0c2343038 a2=2 a3=0 items=1 ppid=3412 pid=5249 auid=1000 uid=1000 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=3 comm="sudo" exe="/usr/bin/sudo" subj=unconfined key="cynetaukey"
+may 08 12:40:27 Cruza2LinGeneralPruebas kernel: audit: type=1307 audit(1778265627.450:437): cwd="/home/cruza/Documentos/Repositorios/cynet"
+may 08 12:40:27 Cruza2LinGeneralPruebas sudo[5249]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl status cyservice
+may 08 12:40:27 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778265627.534:438): arch=c000003e syscall=257 success=yes exit=7 a0=6 a1=7ffd60736475 a2=42 a3=180 items=1 ppid=3412 pid=5249 auid=1000 uid=1000 gid=1000 euid=0 suid=0 fsuid=0 egid=1000 sgid=1000 fsgid=1000 tty=pts1 ses=3 comm="sudo" exe="/usr/bin/sudo" subj=unconfined key="cynetaukey"
+may 08 12:40:27 Cruza2LinGeneralPruebas kernel: audit: type=1307 audit(1778265627.534:438): cwd="/home/cruza/Documentos/Repositorios/cynet"
+may 08 12:40:27 Cruza2LinGeneralPruebas kernel: audit: type=1123 audit(1778265627.534:440): pid=5249 uid=1000 auid=1000 ses=3 subj=unconfined msg='cwd="/home/cruza/Documentos/Repositorios/cynet" cmd=73797374656D63746C2073746174757320637973657276696365 exe="/usr/bin/sudo" terminal=pts/1 res=success'
+may 08 12:41:19 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778265679.313:446): arch=c000003e syscall=257 success=yes exit=18 a0=ffffff9c a1=5e3416ff3df0 a2=42 a3=180 items=1 ppid=2094 pid=2311 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="gnome-session-b" exe="/usr/libexec/gnome-session-binary" subj=unconfined key="cynetaukey"
+may 08 12:41:23 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778265683.618:447): arch=c000003e syscall=87 success=yes exit=0 a0=5c7c4addc580 a1=0 a2=21 a3=5c7c4addbd80 items=2 ppid=2348 pid=2361 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="dbus-daemon" exe="/usr/bin/dbus-daemon" subj=unconfined key="cynetaukey"
+may 08 12:41:23 Cruza2LinGeneralPruebas kernel: audit: type=1300 audit(1778265683.635:448): arch=c000003e syscall=87 success=yes exit=0 a0=5e3416f5cc22 a1=0 a2=0 a3=5e3416f5b520 items=2 ppid=2094 pid=2311 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=3 comm="gnome-session-b" exe="/usr/libexec/gnome-session-binary" subj=unconfined key="cynetaukey"
+may 08 12:41:33 Cruza2LinGeneralPruebas systemd[1]: cyservice.service: Killing process 3872 (CynetEPS) with signal SIGKILL.
+may 08 13:29:57 Cruza2LinGeneralPruebas uninstallCynetEPS[1078]: Check if process if there is dpkg lock.
+may 08 13:29:57 Cruza2LinGeneralPruebas uninstallCynetEPS[1078]: Unlock /var/lib/dpkg/lock
+may 08 13:29:57 Cruza2LinGeneralPruebas kernel: process '/opt/Cynet/CynetEPS' started with executable stack
+may 08 13:29:57 Cruza2LinGeneralPruebas uninstallCynetEPS[1078]: Unlock /var/lib/dpkg/lock-frontend
+may 08 13:29:58 Cruza2LinGeneralPruebas uninstallCynetEPS[1078]: Trying to remove package if installed
+may 08 13:29:58 Cruza2LinGeneralPruebas uninstallCynetEPS[1078]: Command dpkg found
+may 08 13:29:58 Cruza2LinGeneralPruebas uninstallCynetEPS[1185]: Deseado=desconocido(U)/Instalar/eliminaR/Purgar/retener(H)
+may 08 13:29:58 Cruza2LinGeneralPruebas uninstallCynetEPS[1185]: | Estado=No/Inst/ficheros-Conf/desempaqUetado/medio-conF/medio-inst(H)/espera-disparo(W)/pendienTe-disparo
+may 08 13:29:58 Cruza2LinGeneralPruebas uninstallCynetEPS[1185]: |/ Err?=(ninguno)/requiere-Reinst (Estado,Err: mayúsc.=malo)
+may 08 13:29:58 Cruza2LinGeneralPruebas uninstallCynetEPS[1185]: ||/ Nombre         Versión        Arquitectura Descripción
+may 08 13:29:58 Cruza2LinGeneralPruebas uninstallCynetEPS[1185]: +++-==============-==============-============-=================================
+may 08 13:29:58 Cruza2LinGeneralPruebas uninstallCynetEPS[1185]: ii  cyneteps       4.32.0.17002-1 amd64        Cynet EDR package
+may 08 13:29:58 Cruza2LinGeneralPruebas uninstallCynetEPS[1078]: Return value of dpkg list:  0
+may 08 13:29:58 Cruza2LinGeneralPruebas uninstallCynetEPS[1078]: Purging deb package
+may 08 13:29:59 Cruza2LinGeneralPruebas uninstallCynetEPS[1201]: (Leyendo la base de datos ... 189639 ficheros o directorios instalados actualmente.)
+may 08 13:29:59 Cruza2LinGeneralPruebas uninstallCynetEPS[1201]: Desinstalando cyneteps (4.32.0.17002-1) ...
+may 08 13:29:59 Cruza2LinGeneralPruebas uninstallCynetEPS[1405]: Cynet Package: Print uninstaller argument remove
+may 08 13:29:59 Cruza2LinGeneralPruebas uninstallCynetEPS[1405]: Cynet Package: prerm step
+may 08 13:29:59 Cruza2LinGeneralPruebas uninstallCynetEPS[1405]: Removing existing service
+may 08 13:29:59 Cruza2LinGeneralPruebas uninstallCynetEPS[1405]: uninstalling using systemctl
+may 08 13:29:59 Cruza2LinGeneralPruebas uninstallCynetEPS[1405]: daemon-reexec error message:
+may 08 13:30:10 Cruza2LinGeneralPruebas systemd[1]: cyservice.service: Killing process 1074 (CynetEPS) with signal SIGKILL.
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[2385]: Syntax: /usr/bin/deb-systemd-invoke <action> [<unit file> [<unit file> ...]]
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[1405]: Cynet Package: Removing CynetEPS audit rules if needed.
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[1405]: Cynet Package: No Cynet audit rules configured.
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[1405]: Cynet Package: Run auditctl to remove rules with cynetaukey key.
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[2389]: No rules
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[1405]: Cynet Package: Removing CynetEPS audit plugin if needed.
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[1405]: Cynet Package: No Cynet Audit plugin installed.
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[2392]: Cynet Package: postrm step
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[2392]: It is final remove, need to remove files
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[2392]: Cynet Package: Remove old files
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[2392]: Cynet Package: Erase CynetEPS /Data subfolder
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[2392]: Cynet Package: Erase CynetEPS /AV subfolder
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[1201]: Purgando ficheros de configuración de cyneteps (4.32.0.17002-1) ...
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[2395]: Cynet Package: postrm step
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[2395]: It is final remove, need to remove files
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[2395]: Cynet Package: Remove old files
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[2395]: Cynet Package: Erase CynetEPS /Data subfolder
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[2395]: Cynet Package: Erase CynetEPS /AV subfolder
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[1201]: dpkg: atención: al desinstalar cyneteps, el directorio «/opt/Cynet» no está vacío, por lo que no se borra
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[1078]: Trying to remove manual installation
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[1078]: Checking for existing service
+may 08 13:30:10 Cruza2LinGeneralPruebas uninstallCynetEPS[1078]: Removing /opt/Cynet/
+may 08 13:32:27 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: Check if process if there is dpkg lock.
+may 08 13:32:27 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: Unlock /var/lib/dpkg/lock
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: Unlock /var/lib/dpkg/lock-frontend
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: Trying to remove package if installed
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: Command dpkg found
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1251]: dpkg-query: no se ha encontrado ningún paquete que corresponda con cyneteps.
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: Return value of dpkg list:  1
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: Trying to remove manual installation
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: Checking for existing service
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: stopping service if running using systemctl
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: removing service if running using update-rc.d
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: removing existing service using update-rc
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: Service is not installed or we try to uninstall not packages EPS version
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]:   try to terminate CynetEPS, if running
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]:   try to terminate avupdate.bin, if running
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]:   try to terminate CynetAV, if running
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: Unlock /opt/Cynet/AV/CynetAV.sock.lock
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: Removing CynetEPS audit rules if needed.
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: No Cynet audit rules configured.
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: Run auditctl to remove rules with cynetaukey key.
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1340]: No rules
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: Removing CynetEPS audit plugin if needed.
+may 08 13:32:28 Cruza2LinGeneralPruebas uninstallCynetEPS[1066]: No Cynet Audit plugin installed.
+may 08 13:33:54 Cruza2LinGeneralPruebas sudo[3351]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=./cy_easyinstall.sh true false
+may 08 13:33:55 Cruza2LinGeneralPruebas kernel: process '/opt/Cynet/CynetEPS' started with executable stack
+may 08 13:34:33 Cruza2LinGeneralPruebas sudo[3725]:    cruza : TTY=pts/1 ; PWD=/home/cruza/Documentos/Repositorios/cynet ; USER=root ; COMMAND=/usr/bin/systemctl status cyservice
+may 08 13:45:04 Cruza2LinGeneralPruebas sudo[132352]:     root : TTY=pts/0 ; PWD=/opt/Cynet ; USER=root ; COMMAND=/usr/bin/df -hT /opt/cynet
+may 08 13:45:21 Cruza2LinGeneralPruebas sudo[136659]:     root : TTY=pts/0 ; PWD=/opt/Cynet ; USER=root ; COMMAND=/usr/bin/df -hT /opt/Cynet
